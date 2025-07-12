@@ -1,0 +1,11 @@
+# Gemini CLI specific
+.gemini/
+mcp.log
+
+# Python specific
+__pycache__/
+.venv/
+*.pyc
+
+# Operating System specific
+.DS_Store # macOS specific

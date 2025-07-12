@@ -1,0 +1,10 @@
+{
+  "new_user_valid": {
+    "name": "Jane Smith",
+    "username": "janesmith",
+    "email": "jane.smith@example.com"
+  },
+  "new_user_invalid": {
+    "name": "Invalid User"
+  }
+}
