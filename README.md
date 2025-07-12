@@ -29,7 +29,19 @@ Before you begin, ensure you have the following installed:
 
 * **Node.js and npm**: Required for installing Gemini CLI.  
 * **Python 3.8+**: Required for the Flask MCP server.  
-* **Gemini CLI**: npm install \-g @google/generative-ai-cli  
+* **Gemini CLI**: You have a couple of options for installation:
+
+Quick Start (Recommended): This method directly executes the CLI from its GitHub repository without a global installation.
+
+Bash
+
+npx https://github.com/google-gemini/gemini-cli
+Global Installation (Persistent): This installs the Gemini CLI globally on your system, allowing you to run gemini from any directory.
+
+Bash
+
+npm install -g @google/gemini-cli gemini
+
 * **Google Account with Gemini API Access**: You will need to authenticate your Gemini CLI. The free tier generally works by logging in with your personal Google account.
 
 ## **Setup Instructions**

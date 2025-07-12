@@ -107,6 +107,6 @@ def mcp_handler():
 
 if __name__ == '__main__':
     # For production, use a more robust WSGI server like Gunicorn or uWSGI
-    print(f"Starting MCP server on http://localhost:5051. API Base URL: {API_BASE_URL}")
+    print(f"Starting MCP server on http://localhost:5000. API Base URL: {API_BASE_URL}")
     print(f"MCP_API_KEY: {MCP_API_KEY}")
-    app.run(debug=False, port=5051, use_reloader=False)
+    app.run(debug=False, port=5000, use_reloader=False)
